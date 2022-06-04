@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!--Bootstrap 5-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!--Fontawsamn-->
+    <link rel="stylesheet" href="styles/all.css" />
+
+    <!--link CSS-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/mediaQuerys.css" />
+  </head>
+  <body class="bg-body-black">
+    <nav class="navbar navbar-expand-lg slide-top fade-up-header p-3">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src=""
+                alt=""
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />
+              KINGO NFT
+            </a>
+          </div>
+        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn btn-black rounded-0 border text-white px-3">
+          My Wallet
+        </button>
+      </div>
+    </nav>
+
+    <!--section hero-->
+    <div class="m-4">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+      >
+        <div class="d-flex justify-content-start">
+          <div
+            class="d-none d-md-flex flex-column justify-content-start align-items-start"
+            id="social-animation"
+          >
+            <!--discord link-->
+            <div class="mb-4 discord">
+              <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <!--twitter link-->
+            <div class="mb-4 twitter">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <!--linkedin link-->
+            <div class="mb-4 linkedin">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column justify-content-center align-items-center w-100"
+        >
+          <div class="parent-div-typing">
+            <h1 class="text-white typing">DISCOVER</h1>
+          </div>
+          <div class="parent-div-typing mt-3">
+            <h1 class="text-white text-uppercase text-center typing2">
+              the best art nfts
+            </h1>
+          </div>
+
+          <p
+            class="text-capitalize text-gray mt-4 mb-4 text-center text-justify width-explain discover-btn"
+          >
+            a unique and innovation
+            <span class="text-white">collection</span>
+            to discover
+            <span class="text-white">nft</span>
+
+            <span class="text-white">art</span> start now discover NFTs
+          </p>
+
+          <button
+            class="btn btn-yellow border-0 text-dark rounded-0 px-4 discover-btn"
+          >
+            Discover
+          </button>
+        </div>
+      </div>
+
+      <!--section one img of monkeys-->
+      <div
+        class="d-flex justify-content-lg-center align-items-center margin-top-sec-one mb-5 items"
+      >
+        <div
+          class="d-flex justify-content-center mb-4 mb-md-0 item left-monkey"
+        >
+          <div class="style-around-out">
+            <img
+              src="./img/test.svg"
+              alt=""
+              srcset=""
+              width="5rem"
+              height="8rem"
+            />
+            <div class="div-position-left-img">
+              <div class="bg-img">
+                <div class="p-3">
+                  <img
+                    src="./img/monkey1.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-left"
+                  />
+                </div>
+              </div>
+              <div class="text-center text-gray fs-3">
+                <span>01</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex justify-content-center mb-4 mb-md-0 item middle-monkey"
+        >
+          <div class="style-around-out margin-top-middle-monkey">
+            <div class="div-position-middle-img">
+              <div class="text-center text-gray fs-3">
+                <span>02</span>
+              </div>
+              <div class="bg-img">
+                <div class="p-3">
+                  <img
+                    src="./img/monkey2.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-left"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex justify-content-center mb-4 mb-md-0 item item-middle right-monkey"
+          style="margin-left: 45px"
+        >
+          <div class="style-around-out">
+            <div class="div-position-right-img">
+              <div class="bg-img">
+                <div class="p-3">
+                  <img
+                    src="./img/monkey3.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-left"
+                  />
+                </div>
+              </div>
+              <div class="text-center text-gray fs-3">
+                <span>03</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-start justify-content-md-between">
+        <div><h2 class="text-uppercase text-white">special nfts</h2></div>
+        <div class="d-none d-md-flex align-items-center">
+          <a href="#" class="text-capitalize">veiw all</a>&nbsp;<i
+            class="fa-solid fa-chevron-right"
+          ></i>
+        </div>
+      </div>
+      <!--special nfts -->
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center align-items-center mt-5 special-nft"
+      >
+        <div class="col-12 col-sm-6 col-md-3 mb-5">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="text-center text-gray fs-3 mb-3">
+              <span>01</span>
+            </div>
+            <div class="special-nft-items">
+              <div class="bg-img-special-nft">
+                <div class="p-3">
+                  <img
+                    src="./img/monkey4.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-special-nft"
+                  />
+                </div>
+                <!-- <h6 class="text-uppercase">monster 432</h6> -->
+              </div>
+              <div class="info p-1 text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="text-uppercase">monster 432</h6>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="d-flex justify-content-between text-gray">
+                  <p class="text-capitalize">time left</p>
+                  <span class="text-capitalize">prise</span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <p class="text-capitalize">12h : 13m : 00s</p>
+                  <span class="text-uppercase">1.7etf</span>
+                </div>
+              </div>
+
+              <div class="btn-special-nft">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <button
+                    class="btn-nft btn btn-yellow border-0 text-dark text-bold rounded-0 px-5 text-capitalize"
+                  >
+                    place a bid
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-5 img-monkey-middle-sec4">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="text-center text-gray fs-3 mb-3">
+              <span>02</span>
+            </div>
+            <div class="special-nft-items">
+              <div class="bg-img-special-nft">
+                <div class="p-3">
+                  <img
+                    src="./img/monkey5.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-special-nft"
+                  />
+                </div>
+                <!-- <h6 class="text-uppercase">monster 432</h6> -->
+              </div>
+              <div class="info p-1 text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="text-uppercase">monster 432</h6>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="d-flex justify-content-between text-gray">
+                  <p class="text-capitalize">time left</p>
+                  <span class="text-capitalize">prise</span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <p class="text-capitalize">12h : 13m : 00s</p>
+                  <span class="text-uppercase">1.7etf</span>
+                </div>
+              </div>
+              <div class="btn-special-nft">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <button
+                    class="btn-nft btn btn-yellow border-0 text-dark text-bold rounded-0 px-5 text-capitalize"
+                  >
+                    place a bid
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-5">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="text-center text-gray fs-3 mb-3">
+              <span>03</span>
+            </div>
+            <div class="special-nft-items">
+              <div class="bg-img-special-nft">
+                <div class="p-3">
+                  <img
+                    src="./img/monkey6.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-special-nft"
+                  />
+                </div>
+                <!-- <h6 class="text-uppercase">monster 432</h6> -->
+              </div>
+              <div class="info p-1 text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h6 class="text-uppercase">monster 432</h6>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="d-flex justify-content-between text-gray">
+                  <p class="text-capitalize">time left</p>
+                  <span class="text-capitalize">prise</span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                  <p class="text-capitalize">12h : 13m : 00s</p>
+                  <span class="text-uppercase">1.7etf</span>
+                </div>
+              </div>
+              <div class="btn-special-nft">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <button
+                    class="btn-nft btn btn-yellow border-0 text-dark text-bold rounded-0 px-5 text-capitalize"
+                  >
+                    place a bid
+                  </button>
+                </div>
+
+                <!-- <div class="bg-btn-special-nft"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--our community-->
+      <div
+        class="our-community d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="text-white text-uppercase mb-4">our community</h2>
+          <p class="text-capitalize text-gray text-center mb-4">
+            our community includes all those who work on the site,<span
+              class="text-white"
+              >buyers</span
+            >, NFT <span class="text-white">manufacturers</span> and
+            <span class="text-white">sellers.</span>
+          </p>
+          <button
+            class="btn btn-yellow border-0 text-dark text-bold rounded-0 px-5 text-capitalize"
+          >
+            join now
+          </button>
+        </div>
+      </div>
+
+      <!--our teams-->
+      <div class="mt-5">
+        <div class="row text-center text-white text-uppercase">
+          <h2>our team</h2>
+        </div>
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-center owl-carousel"
+        >
+          <div
+            class="card-team d-flex flex-column justify-content-center align-items-center m-3"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img src="./img/team1.jpg" class="team-img" alt="team_members" />
+
+              <p class="text-white text-uppercase mt-3 mb-2">mokaj ute</p>
+
+              <span class="text-gray text-capitalize">designer</span>
+            </div>
+            <div class="text-center social-card-team">
+              <a href="#" class="me-3"> <i class="fa-brands fa-discord"></i></a>
+              <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+              <div class="bg-social"></div>
+            </div>
+          </div>
+
+          <div
+            class="card-team d-flex flex-column justify-content-center align-items-center m-3"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img src="./img/team2.jpg" class="team-img" alt="team_members" />
+
+              <p class="text-white text-uppercase mt-3 mb-2">mokaj ute</p>
+
+              <span class="text-gray text-capitalize">designer</span>
+            </div>
+            <div class="text-center social-card-team">
+              <a href="#" class="me-3"> <i class="fa-brands fa-discord"></i></a>
+              <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+              <div class="bg-social"></div>
+            </div>
+          </div>
+
+          <div
+            class="card-team d-flex flex-column justify-content-center align-items-center m-3"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <img src="./img/team3.jpg" class="team-img" alt="team_members" />
+
+              <p class="text-white text-uppercase mt-3 mb-2">mokaj ute</p>
+
+              <span class="text-gray text-capitalize">designer</span>
+            </div>
+            <div class="text-center social-card-team">
+              <a href="#" class="me-3"> <i class="fa-brands fa-discord"></i></a>
+              <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+              <div class="bg-social"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div
+      class="container-fluid footer d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="row flex-column justify-content-center align-items-center mb-4"
+      >
+        <img
+          src=""
+          alt="logo_brand"
+          width="30"
+          height="24"
+          class="d-inline-block mb-3"
+        />
+
+        <h5 class="text-white">KINGO NFT</h5>
+      </div>
+
+      <div
+        class="d-flex flex-column flex-md-row justify-content-around align-items-center w-100"
+      >
+        <div class="d-flex justify-content-center align-items-center">
+          <!--discord link-->
+          <div>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+          </div>
+          <!--twitter link-->
+          <div class="mx-3">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <!--linkedin link-->
+          <div>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="horizontal-line my-2"></div>
+        <div class="d-flex justify-content-center align-items-center">
+          <ul class="d-flex flex-column flex-md-row nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="horizontal-line my-2"></div>
+        <div>
+          <p class="text-white">+21 987 5436</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
