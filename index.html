@@ -27,16 +27,15 @@
   <nav class="navbar navbar-expand-lg slide-top fade-up-header p-3">
     <div class="container-fluid">
       <nav class="navbar">
-        <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top" />
             KINGO NFT
           </a>
-        </div>
       </nav>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+      <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon d-flex justify-content-center align-items-center text-white">
+          <i class="fa-solid fa-bars"></i>
+        </span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
         <ul class="navbar-nav justify-content-center mb-2 mb-lg-0">
@@ -52,10 +51,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
           </li>
+          <li class="nav-item d-lg-none">
+            <button class="btn btn-black rounded-0 border text-white px-3">
+              My Wallet
+            </button>
+          </li>
         </ul>
       </div>
 
-      <button class="btn btn-black rounded-0 border text-white px-3">
+      <button class="d-none d-lg-flex btn btn-black rounded-0 border text-white px-3">
         My Wallet
       </button>
     </div>
@@ -352,8 +356,6 @@
   <!--footer-->
   <div class="container-fluid footer d-flex flex-column justify-content-center align-items-center">
     <div class="row flex-column justify-content-center align-items-center mb-4">
-      <img src="" alt="logo_brand" width="30" height="24" class="d-inline-block mb-3" />
-
       <h5 class="text-white">KINGO NFT</h5>
     </div>
 
